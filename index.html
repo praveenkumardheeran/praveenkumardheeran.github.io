@@ -1,59 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praveen Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .intro-section {
-            margin: 30px;
-            text-align: center;
-        }
-        .intro-section h2 {
-            color: #333;
-        }
-        .intro-section p {
-            font-size: 18px;
-            color: #555;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+        /* Reset & Fonts */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header Navigation */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Projects */
+.project-card {
+  background: #f1f1f1;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  margin-top: 40px;
+}
+
     </style>
 </head>
 <body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1>Praveen Kumar</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Welcome to My Introduction Page!</h1>
-    </header>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Praveen Kumar, a web developer passionate about creating clean, user-friendly websites and experimenting with new technologies.</p>
+  </section>
 
-    <div class="intro-section">
-        <h2>Hi, I'm [Your Name]</h2>
-        <p>I am a passionate web developer learning and experimenting with different technologies. I enjoy building websites and learning about the latest trends in web development.</p>
-        <p>Feel free to explore and get to know more about me!</p>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project One</h3>
+      <p>Short description of your project. <a href="#">View on GitHub</a></p>
     </div>
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <p>Another project description. <a href="#">Live Demo</a></p>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 [Your Name] | All rights reserved.</p>
-    </footer>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>🔗 GitHub: <a href="https://github.com/praveenkumardheeran" target="_blank">github.com/praveenkumardheeran</a></p>
+    <p>💼 LinkedIn: <a href="#" target="_blank">LinkedIn Profile</a></p>
+  </section>
 
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Praveen Kumar | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
