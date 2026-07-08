@@ -42,9 +42,6 @@ Portfolio
 └── README.md
 ```
 
-## 📸 Preview
-
-(Add screenshots here)
 
 ## 👨‍💻 Author
 
