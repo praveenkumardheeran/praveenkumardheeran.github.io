@@ -166,7 +166,7 @@ button:nth-child(2):hover{
 .circle:nth-child(2){
     /* animation: float 4s ease-in-out infinite; */
     width:26rem;
-    background-image:url("/main/image/profile.png");
+    background-image:url("https://github.com/praveenkumardheeran/praveenkumardheeran.github.io/blob/main/image/profile.png");
     background-size:cover;
     background-position:50% 20% ;
     background-repeat:no-repeat;
